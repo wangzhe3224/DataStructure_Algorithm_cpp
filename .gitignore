@@ -26,3 +26,10 @@
 *.exe
 *.out
 *.app
+
+# Emacs files
+*.c~
+*.cpp~
+*.h~
+*.md~
+*.cc~
