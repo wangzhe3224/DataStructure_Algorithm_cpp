@@ -1,6 +1,6 @@
 # Chapter 01 Programming: A general overview
 
-## [Exercise 1.1](ex01_01.cpp)
+## Exercise 1.1 | [Code](ex01_01.cpp)
 >
 Write a program to solve the selection problem. Let k = N/2. Draw a table showing the running time of your program for various values of N.
 
@@ -13,3 +13,6 @@ Write a program to solve the selection problem. Let k = N/2. Draw a table showin
 |1e7     |0.004    |
 |1e10    |2.7129   |
 |1e12    |Aborted  |
+
+
+## Exercise 1.2
