@@ -26,7 +26,7 @@ matrix( vector<vector<Object>> &&v): array { std::move(v) }
   int numrows() const
   { return array.size(); }
   int numcols() const
-  { return numrows() ? array[0].size : 0; }
+  { return numrows() ? array[0].size() : 0; }
   
 private:
   vector<vector<Object>> array;
