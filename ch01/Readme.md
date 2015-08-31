@@ -1,3 +1,6 @@
+* auto-gen TOC:
+{:toc}
+
 # Chapter 01 Programming: A general overview
 
 ## Exercise 1.1 | [Code](ex01_01.cpp)
