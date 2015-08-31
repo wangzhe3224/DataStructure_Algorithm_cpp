@@ -48,7 +48,7 @@ I guess:
 ## Exercise 1.5 | [Code](ex01_05.cpp)
 > Write a recursive function that returns the number of 1 in the binary representation of N. Use the fact that this is equal to the number of 1 in the representation of N/2, plus 1, if N is odd.
 
-## Exercise 1.6 | [Code](ex01_06.cpp)
+## Exercise 1.6 | [Code1](ex01_06.cpp), [Code2](ex01_06_2.cpp)
 >
 Write the routines with the following declarations:
 >
@@ -59,4 +59,12 @@ void permute( const string & str, int low, int high );
 >
 The first routine is a driver that calls the second and prints all the permutations of the characters in string str . If str is "abc" , then the strings that are output are abc , acb , bac , bca , cab , and cba . Use recursion for the second routine.
 
+I think the second method is more readable than the first method.
+
+## Exercise 1.7
+> Prove the following formulas:
+a. logX < X for all X > 0
+b. log(AB) = BlogA
+
+a:  
 

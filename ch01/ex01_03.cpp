@@ -29,6 +29,7 @@ int findPointNum(double num) {
 
 
 void printDigit(int n)
+    // print a integer
 {
   if (abs(n) >= 10)
   {
@@ -40,6 +41,7 @@ void printDigit(int n)
 }
 
 void printReal(double num)
+    // use printDigit to print integer part and digital part.
 {
   int intPart, i, dicInt = 0;
   double dicPart;
