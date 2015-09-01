@@ -68,6 +68,53 @@ I think the second method is more readable than the first method.
 a. logX < X for all X > 0
 b. log(AB) = BlogA
 
-a:  
+a: [Answer](http://math.stackexchange.com/questions/741600/prove-that-logx-x-for-x-0-x-in-mathbbn)
 
-\\(x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}\\)
+b: [Answer](https://www.khanacademy.org/math/algebra2/logarithms-tutorial/logarithm_properties/v/proof-a-log-b-log-b-a-log-a-log-b-log-a-b)
+
+## Exercise 1.8
+a. 3/4  
+b. 4/9  
+c. 20/27  
+d. ??
+
+## Exercise 1.9
+ln2
+
+## Exercise 1.10
+It is 1. [See Here](https://answers.yahoo.com/question/index?qid=20080513102215AA8Q8tf)
+
+## Exercise 1.11
+## Exercise 1.12
+
+## Exercise 1.13 | [.h](ex01_13_2.h) | [.cpp](ex01_13_2.cpp)
+>
+Design a class template, Collection , that stores a collection of Object s (in an array), along with the current size of the collection. Provide public functions isEmpty , makeEmpty , insert , remove , and contains . contains(x) returns true if and only if an Object that is equal to x is present in the collection.
+
+- Tips:
+  * Use `pass-by reference-to-const` for the member function so we can pass a literal to the function....Let's fly!
+  * We use operator `new` and `delete` to manage dynamic memory. We have to free the memory when the object dies. Here we use function `init()` to allocate space and `Free()` to free the space. They are all pricate member functions.
+  * `InvalidIndex()` is used to check if a index is valid.
+  * When we `makeEmpty()` a Collection, we set `_size` to 0 instead of erasing all the element in the memory.
+
+## Exercise 1.14 | [.h](ex01_14.h) | [.cpp](ex01_14.cpp)
+>
+Design a class template, OrderedCollection , that stores a collection of Comparables (in an array), along with the current size of the collection. Provide public functions isEmpty , makeEmpty , insert , remove , findMin , and findMax . findMin and findMax return references to the smallest and largest, respectively, Comparable in the collection. Explain what can be done if these operations are performed on an empty collection.
+
+- Tips:
+  * In this class template, the Object in the class must support operator< and operatptor=.
+
+## Exercise 1.15 | [.h](ex01_15.h) | [.cpp](ex01_15.cpp)
+>
+Define a Rectangle class that provides getLength and getWidth . Using the findMax routines in Figure 1.25, write a main that creates an array of Rectangle and finds the largest Rectangle first on the basis of area and then on the basis of perimeter.
+
+- Tips:
+  * You can pass a `reference-to-type` to a `reference-to-const type` parameter, but you can not do the opposite way. So if you don't change tha passing varible, use pass by `reference-to-const type` instead of `reference-to type`.
+  * A const version object can only invoke const version method (the method with a const at the end of function prototype).
+  * Function object is handy.
+
+## Exercise 1.16 | [.h](ex01_16.h) | [.cpp](ex01_16.cpp)
+>
+For the matrix class, add a resize member function and zero-parameter constructor.
+
+
